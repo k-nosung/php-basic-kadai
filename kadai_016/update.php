@@ -71,7 +71,7 @@
          }
  
          // genesテーブルからgenre_codeカラムのデータを取得するためのSQL文を変数$sql_select_vendor_codesに代入する
-         $sql_select_genes_codes = 'SELECT genre_code FROM genes';
+         $sql_select_genre_codes = 'SELECT genre_code FROM genres';
  
          // SQL文を実行する
          $stmt_select_genre_codes = $pdo->query($sql_select_genre_codes);
@@ -135,7 +135,7 @@
                          <?php
                          // 配列の中身を順番に取り出し、セレクトボックスの選択肢として出力する
                          foreach ($genre_codes as $genre_code) {
-                             // もし変数$genre_codeが商品のジャンルコードの値と一致していれば、selected属性をつけて初期値にする
+                             // もし変数$genre_codeが書籍のジャンルコードの値と一致していれば、selected属性をつけて初期値にする
                              if ($genre_code === $book['genre_code']) {
                                  echo "<option value='{$genre_code}' selected>{$genre_code}</option>";
                              } else {

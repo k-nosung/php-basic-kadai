@@ -16,18 +16,18 @@
  <body>
      <header>
          <nav>
-             <a href="index.php">商品管理アプリ</a>
+             <a href="index.php">書籍管理アプリ</a>
          </nav>
      </header>
      <main>
          <article class="home">
-             <h1>商品管理アプリ</h1>
+             <h1>書籍管理アプリ</h1>
              <p>『PHPとデータベースを連携しよう』成果物</p>
-             <a href="read.php" class="btn">商品一覧</a>
+             <a href="read.php" class="btn">書籍一覧</a>
          </article>
      </main>
      <footer>
-         <p class="copyright">&copy; 商品管理アプリ All rights reserved.</p>
+         <p class="copyright">&copy; 書籍管理アプリ All rights reserved.</p>
      </footer>
  </body>
  
